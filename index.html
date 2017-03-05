@@ -130,24 +130,12 @@
     <p>feel free to send us your questions, comments and concerns</p>
   </div>
 
-  <div id="form">
-    <form action = "form_process.php" method = "post" name = "contact_form">
-        
-    <label>Name</label>
-    <input name="name" placeholder="">
-            
-    <label>Email</label>
-    <input name="email" type="email" placeholder="">
+  <form action="http://formspree.io/you@email.com" method="post">
+  <input type="email" name="_replyto">
+  <textarea name="body"></textarea>
+  <input type="submit" value="Send">
+  </form>
 
-    <label>Phone</label>
-    <input name="phone" type="phone" placeholder="">
-            
-    <label>Message</label>
-    <textarea name="message" placeholder=""></textarea>
-     
-    <input id="submit" type="submit" name = "submit" value="Submit">   
-    </form>
-  </div>
   
 
   <footer>
